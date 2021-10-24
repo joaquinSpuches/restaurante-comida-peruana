@@ -8259,6 +8259,11 @@ ul.u-text li:last-child {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  .u-section-2 .u-container-layout-6 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: -600px;
+}
   .u-hidden-md {
     display: none !important;
   }
@@ -8269,6 +8274,11 @@ ul.u-text li:last-child {
   }
 }
 @media (max-width: 575px) {
+  .u-section-2 .u-container-layout-6 {
+    padding-left: 200px
+;
+    padding-right: 0;
+}
   .u-hidden-xs {
     display: none !important;
   }
@@ -8340,6 +8350,11 @@ ul.u-text li:last-child {
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
+  .u-section-2 .u-container-layout-6 {
+    padding-left: 200px;
+    padding-right: 0;
+}
+  
   .u-text-default-sm {
     display: table;
     align-self: flex-start;
