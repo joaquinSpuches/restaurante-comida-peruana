@@ -76,6 +76,9 @@ html,body{
 }
 
 @media (max-width: 1199px) {
+  .chat-wpp{
+    margin-top: 506px;
+  }
   .u-section-1 .u-group-1 {
     background-position: 50% 50%;
     margin-left: initial;
@@ -770,6 +773,7 @@ html,body{
 }
 
 @media (max-width: 575px) {
+
   .u-section-3 {
     margin-top: 0;
     margin-bottom: 0;
