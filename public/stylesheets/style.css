@@ -286,11 +286,11 @@ html,body{
 }
 
 .u-section-2 .u-group-3 {
-  width: 569px;
+  width: 100%;
   min-height: 178px;
-  margin: -418px auto 0 363px;
+  animation-duration: 1000ms;
+  margin: 20px 358px 0 auto;
 }
-
 .u-section-2 .u-container-layout-7 {
   padding-left: 0;
   padding-right: 0;
@@ -391,6 +391,7 @@ html,body{
     margin-top: -445px;
     margin-left: calc(((100% - 940px) / 2) + 102px);
   }
+  
 
   .u-section-2 .u-text-5 {
     margin-left: 16px;
@@ -589,7 +590,7 @@ html,body{
   }
 
   .u-section-2 .u-group-3 {
-    width: 540px;
+    width: 100%;
     margin-left: 0;
   }
 
@@ -677,15 +678,15 @@ html,body{
   }
 
   .u-section-2 .u-group-3 {
-    width: 230px;
-    margin-top: -439px;
+    width: 100%;
+    margin-top: 10px;
     margin-left: auto;
     margin-bottom: 60px;
   }
 
   .u-section-2 .u-icon-1 {
     margin-top: 30px;
-    margin-right: 84px;
+    
     margin-bottom: 0;
   }
 
