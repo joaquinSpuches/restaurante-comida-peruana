@@ -95,15 +95,12 @@ html,body{
   }
   
 }
-@media (max-height: 719px) {
-  .chat-wpp{
-    margin-top: 486px;
+
+  @media (max-height: 360px) {
+      .chat-wpp{
+        margin-top: 186px;
+      }
   }
-@media (max-height: 360px) {
-    .chat-wpp{
-      margin-top: 186px;
-    }
-}
 @media (max-width: 991px) {
   .u-section-1 .u-group-2 {
     margin-left: calc(((100% - 720px) / 2) + 30px);
@@ -628,7 +625,7 @@ html,body{
 
   .u-section-2 .u-layout-wrap-1 {
     width: 295px;
-    margin-top: -689px;
+    margin-top: -1689px;
     margin-right: auto;
   }
 
@@ -794,7 +791,7 @@ html,body{
 
   .u-section-3 .u-group-1 {
     min-height: 1102px;
-    width: 440px;
+    width: 379px;
     margin-left: 0;
     margin-right: 0;
   }
@@ -1046,3 +1043,7 @@ html,body{
     margin-right: 6px;
   }
 }
+@media (max-height: 719px) {
+  .chat-wpp{
+    margin-top: 446px;
+  }
