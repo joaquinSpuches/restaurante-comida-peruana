@@ -61,6 +61,7 @@ html,body{
   min-height: 423px;
   background-image: none;
   margin: -671px auto 248px calc(((100% - 1140px) / 2) + 225px);
+  margin-top: -835px;
 }
 
 .u-section-1 .u-container-layout-2 {
