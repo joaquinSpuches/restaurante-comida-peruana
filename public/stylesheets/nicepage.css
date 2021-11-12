@@ -16846,7 +16846,7 @@ div.u-video,
 }
 .menu-collapse .u-nav-link {
   text-decoration: none !important;
-  padding-top: 4px;
+  padding-top: 0px;
   padding-bottom: 4px;
   font-size: calc(1em + 8px);
 }
@@ -16854,6 +16854,8 @@ div.u-video,
   width: 1em;
   height: 1em;
   vertical-align: top;
+  margin-top: -14px;
+  
 }
 .menu-collapse .u-nav-link svg + svg {
   position: absolute;
