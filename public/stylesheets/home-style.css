@@ -1,9 +1,12 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    scroll-behavior: smooth  ;
+    color:white
     
     
 }
+
 
 body{
     display: flex;
@@ -67,7 +70,7 @@ header .top-header img{
        width: 100%;
        height: 100vh;
        transform: translateX(100%);
-       transition: transform 0.5s ease-in;
+       transition: transform 0.1s ease-in;
     
 }
 
@@ -82,6 +85,9 @@ header .top-header img{
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     justify-content: flex-start;
+    margin-top: 10px;
+
+    
 
     
 
@@ -89,17 +95,70 @@ header .top-header img{
 }
 
 .nav-ul a{
-    color: black;
-
+    color: white;
+    text-decoration: none;
+    
     padding: 20px
 }
 .nav-ul.active{
-        transform: translateX(-10px);
+        transform: translateX(30%);
+        
     }
 
+.chat-wpp {
+    flex-direction: row;
+    display: flex;
+    position: fixed;
+    margin-top: 80vh;
+    z-index: 1;
+    background-color: green;
+    width: 192px; 
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+   
+      box-shadow: 0 10px 30px -12px rgb(0 0 0 / 42%), 0 4px 25px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 20%);
+  
+  }
+  .chat-wpp p{
+    text-align: center;
+    font-size: small;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column  ;
+
+  }
+  main.active{
+      display: block;
+      
+      filter: brightness(20%);
+  }
+  .chat-wpp img{
+    width: 42%;
+    height: 42%;
+    padding: 18px;
+    animation-duration: 1000ms;
+    
+    
+  }
 
 h2{
     color: #ca2128;
+}
+#menu{
+    background-color: #ca2128;
+    height: 8vh
+
+;
+}
+#quienes-somos{
+    background-color: #ca2128;
+    height: 8vh
+
+;
 }
 main{
     background-color: #ca2128;
@@ -107,7 +166,7 @@ main{
     flex-direction: column;
     display: flex;
     
-   
+    -webkit-transition: all 0.1s ease-in-out;
     flex-wrap: wrap;
     justify-content: center;
     
@@ -124,9 +183,11 @@ main section {
     padding-bottom: 60px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     height: 92vh;
+    
+
 
   
     
