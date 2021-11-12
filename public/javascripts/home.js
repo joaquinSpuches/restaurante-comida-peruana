@@ -6,6 +6,8 @@ const navBar = () => {
     const nav3 = document.querySelector('.navA-3')
     const nav4 = document.querySelector('.navA-4')
     const main = document.querySelector('main')
+    const section = document.querySelectorAll('section')
+    
 
     burger.addEventListener('click', () => {
         console.log('activado')
@@ -32,6 +34,20 @@ const navBar = () => {
         nav.classList.toggle('active')
         main.classList.toggle('active')
     })
+    for (let i = 0 ; i< section.length; i++){
+        section[i].addEventListener('click', () => {
+            if(document.querySelector('main.active') == null){
+                
+                
+            } else {
+                nav.classList.toggle('active')
+                main.classList.toggle('active')
+
+            }
+            
+        })
+    }
+    
     
 }
 
