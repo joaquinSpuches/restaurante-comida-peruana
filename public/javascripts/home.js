@@ -1,3 +1,29 @@
+window.addEventListener('scroll', ()=>{
+    var altura = window.innerHeight/1.102
+    var altura2 = altura - 983
+    var menu = document.querySelectorAll('.fade')
+    for(let i = 0; i < menu.length; i++){
+        var distancia = menu[i].getBoundingClientRect().top
+
+    console.log(altura);
+    console.log(altura2);
+    console.log(distancia);
+
+    menu[i].classList.add('transform_up')
+    
+    
+    if(distancia <= altura){
+    
+        menu[i].classList.add('aparece')
+    }else {
+        menu[i].classList.remove('aparece')
+    }
+        
+    }
+  
+    
+
+})
 const navBar = () => {
     const burger = document.querySelector('.burger')
     const nav = document.querySelector('.nav-ul')
@@ -50,6 +76,8 @@ const navBar = () => {
     
     
 }
+
+
 
 
 navBar()

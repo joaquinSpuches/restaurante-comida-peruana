@@ -16,7 +16,17 @@ body{
     
     flex-direction: column;
 }
-
+p{
+    font-family: 'roboto', sans-serif;
+    font-size: small;}
+h1{
+    font-family: 'roboto', sans-serif;
+   
+    
+}
+.combo{
+    padding-top: 30px;
+}
 header{
     background-color: rgba(255, 255, 255, 1);
     
@@ -180,7 +190,7 @@ main section {
     border: 10px solid #ca2128;
     border-radius: 21px;
     padding: 10%;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -205,7 +215,7 @@ main .inicio img{
 
 }
 .inicio {
-    
+    align-items: center;
     background-color: white;
     height: 100vh;    
     display: flex;
@@ -215,7 +225,7 @@ main .inicio img{
     border: none;
     border-radius: 0;
     
-
+ 
 }
 .menu img{
     border-radius: 100%;
@@ -224,6 +234,19 @@ main .inicio img{
 }
 .menu {
     height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.fade{
+    opacity: 0;
+    transition: all 0.5s;
+}
+.transform_up{
+    transform: translateY(10%)
+}
+.aparece{
+    opacity: 1;
+    transform: none;
 }
 .lista-menu{
     display: flex;
@@ -252,10 +275,51 @@ main .inicio img{
 }
 footer{
     background-color: black;
-    height: 50vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    align-items: flex-end;
     
 
 }
 h5{
     color: white;
 }
+
+@media(min-width: 1018px){
+    h1{
+        font-size: 36px
+    }
+    p{
+        font-size: 24px
+    }
+  
+
+
+}
+
+/* @media(min-width: 1382px){
+    main section{
+
+        /* border-radius: 217px; */
+        /* border:189px solid #ca2128; */
+        /* border-top:0px solid #ca2128;
+        border-bottom:260px solid #ca2128;
+        box-shadow: rgb(0 0 0 / 12%); */
+        
+    }
+}
+    
+/* 
+@media(min-width: 1582px){
+    main section .quienes-somos{
+        margin :350px
+        /* border-radius: 433px; */
+        /* border:389px solid #ca2128;
+        border-top:0px solid #ca2128;
+        border-bottom:10px solid #ca2128; */
+    } */
+} */
+    
