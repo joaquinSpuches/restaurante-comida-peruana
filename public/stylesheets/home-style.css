@@ -50,6 +50,9 @@ header .top-header{
     
     
 }
+.nav-bar2{
+    display: none;
+}
 
 header .top-header .burger {
     cursor: pointer;
@@ -279,10 +282,14 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    
+    padding: 20px;
     align-items: flex-end;
     
 
+}
+footer div{
+    padding: 5px;
+    width: 112px;
 }
 h5{
     color: white;
@@ -295,8 +302,50 @@ h5{
     p{
         font-size: 24px
     }
-  
+    footer div{
+        width: 330px
+    }
+    header .top-header .burger {
+       display: none;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px
+    }
+    .nav-bar {
+        display: none;
+    }
+    .nav-bar2{
+        display: flex;
+    }
+    .nav-ul2{
+       
+       position: relative;
+       height: auto;
+       font-family: 'Roboto', sans-serif;
+       justify-content: flex-start;
+       width: 100%; 
+       display: flex;
+       flex-direction: row ;
+    }
+    .nav-ul2 a{
+        color: #ca2128;
+        font-weight: bold;
+        text-decoration: none;
+    
+        padding: 20px;
+        
+    }
+    .top-header {
+        padding: 10px;
+    }
+    .div1, .div2{
+        border-left: 184px solid #ca2128;
+        border-right: 184px solid #ca2128;    
 
+    }
 
 }
 
