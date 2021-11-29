@@ -10,7 +10,7 @@
 
 body{
     display: flex;
-    background-color: #ca2128;
+    /* background-color: #ca2128; */
     font-family: 'Roboto', sans-serif;
     font-family: 'Zen Old Mincho', serif;
     
@@ -28,7 +28,8 @@ h1{
     padding-top: 30px;
 }
 header{
-    background-color: rgba(255, 255, 255, 1);
+    background-color:#ca2128;
+    ;
     
     padding: 10px ;
     width: 100%;
@@ -159,22 +160,22 @@ header .top-header img{
   }
 
 h2{
-    color: #ca2128;
+    color: white;
 }
 #menu{
-    background-color: #ca2128;
+    /* background-color: #ca2128; */
     height: 11vh
 
 ;
 }
 #quienes-somos{
-    background-color: #ca2128;
+    /* background-color: #ca2128; */
     height: 11vh
 
 ;
 }
 main{
-    background-color: #ca2128;
+    /* background-color: #ca2128; */
     align-items: center;
     flex-direction: column;
     display: flex;
@@ -190,7 +191,7 @@ main{
 } */
 main section {
     background-color: rgba(0, 0, 0, 0.2);
-    border: 10px solid #ca2128;
+    border: 10px solid transparent;
     border-radius: 21px;
     padding: 10%;
     /* padding-bottom: 60px; */
@@ -294,6 +295,15 @@ footer div{
 h5{
     color: white;
 }
+.div1{
+    background: url('images/flesh-ge0941ad8f_1920.jpg')no-repeat center center fixed; 
+}
+.div2{
+    background: url('images/pepperazzi-1388031_1920.jpg')no-repeat center center fixed;
+}
+header{
+    b
+}
 
 @media(min-width: 1018px){
     h1{
@@ -331,7 +341,7 @@ h5{
        flex-direction: row ;
     }
     .nav-ul2 a{
-        color: #ca2128;
+        color: whit;
         font-weight: bold;
         text-decoration: none;
     
@@ -342,10 +352,12 @@ h5{
         padding: 10px;
     }
     .div1, .div2{
-        border-left: 184px solid #ca2128;
-        border-right: 184px solid #ca2128;    
+        border-left: 184px solid transparent;
+        border-right: 184px solid transparent;    
 
+    
     }
+    .di
 
 }
 @media(min-width: 1418px){
